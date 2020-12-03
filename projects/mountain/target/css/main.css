@@ -1,0 +1,31 @@
+* {
+  user-select: none; }
+
+.dialog-area {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 10px; }
+
+.game-area {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: filter 0.5s; }
+
+#maps > canvas {
+  padding: 10px; }
+
+.main-game {
+  transition: filter 0.5s; }
+
+.blur {
+  filter: blur(15px); }
+
+.black {
+  filter: brightness(0);
+  pointer-events: none; }
+
+#js-canvas {
+  transform: scale(1);
+  transform-origin: top left;
+  image-rendering: pixelated;
+  border: 1px solid; }
