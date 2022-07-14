@@ -1,1 +1,0 @@
-.musicalist{display:flex;justify-content:center}#showWatched{margin-bottom:10px}form{margin-top:20px}.content{max-width:600px}.entry{cursor:pointer;color:#000}.entry-container{display:flex;align-items:center;gap:10px}.entry-container button{margin-left:auto;text-decoration:none}.entry-container img{width:80px}.entry--watched{filter:grayscale(100%);text-decoration:line-through}
